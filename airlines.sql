@@ -1,0 +1,3 @@
+COPY AIRLINE_AGENCY (NAME, SITE)
+FROM
+	'D:\data\Airlines.csv' DELIMITER ';' CSV HEADER;

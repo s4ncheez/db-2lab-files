@@ -1,0 +1,3 @@
+COPY COUNTRY (CODE, NAME)
+FROM
+	'D:\data\Countries.csv' DELIMITER ';' CSV HEADER;
